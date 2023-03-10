@@ -1,0 +1,188 @@
+/*RESET CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.5em;
+    color: #333;
+}
+
+p{
+    font-size: 1em;
+    color: #777;
+}
+
+/*  CABEÇALHO  */
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #13c7ae;
+    /*background: linear-gradient(red,blue);*/
+}
+
+.logo{
+    width: 221px;
+    height: 48px;
+    float: left;
+    background: url(../img/MicrosoftTeams-image\ \(1\).png) no-repeat;
+    font-size: 0;
+}
+
+.cabecalho form{
+    width: 30%;
+    float: right;
+}
+.cabecalho form input[type="search"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px 15px 10px;
+    border-radius: 15px 0 0 15px;
+}
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: #0cae98;
+    color: pointer;
+    border-radius: 0 15px 15px 0;
+}
+
+/*MENU*/
+.menu {
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+
+.menu li a:hover {
+    color: #fff;
+}
+
+/* SOCIAL-ICONS */
+.social-icons {
+    float: right;
+}
+
+.social-icons a {
+    color: #fff;
+    float: left;
+    margin-left: 12px;
+}
+
+.btn-facebook:hover {
+    color: #3b5998;
+}
+/*SOCIAL-ICONS*/
+.social-icons{
+    float: right;
+}
+.social-icons a{
+    color: #fff;
+    float: left;
+    margin-left: 13px;
+}
+.btn-facebook:hover{
+color: #3b5998;
+}
+.btn-twitter:hover{
+    color:#54A4D6;
+}
+.btn-google:hover{
+    color: #D73D32;
+}
+/*PRINCIPAL*/
+.principal{
+    width: 100%;
+    float:left;
+    padding: 20px 8%;
+}
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+.sobre h2{
+    margin-bottom: 15px;
+}
+.sobre img{
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+    margin: 0 15px 15PX 0;
+}
+.SOBRE P{
+    text-align: justify;
+}
+
+
+/* NEWSLATTER */
+.newslatter{
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 50px 8%;
+}
+.newslatter h3{
+    font-size: 1.8em;
+    color: white;
+}
+.newslatter p{
+    font-size: 1.2em;
+    color: white;
+}
+.newslatter form{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.newslatter form input{
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;  
+    border-radius: 7px;
+    color: #fff;
+    background-color: initial;
+    float: left; 
+}
+.newslatter button{
+    width: 18%;
+    background-color: #fff;
+    border-radius: 7px; /*Para deixar a borda redonda*/
+    padding: 15px 10px; 
+    float:right;
+    cursor: pointer;
+
+}
